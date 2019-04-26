@@ -10,6 +10,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 @RestController
 public class ProductController {
@@ -30,7 +31,12 @@ public class ProductController {
     }
 
     @RequestMapping(value = "/product/{productNo}", method = RequestMethod.GET)
-    public String getProductByNo(@PathVariable("productNo") String productNo) {
+    public String getProductByNo(@PathVariable("productNo") String productNo) throws InterruptedException {
+        Random random = new Random();
+        int delay = random.nextInt(2);
+        if (delay >= 1) {
+            Long.parseLong("test");
+        }
         return products.get(productNo).toString();
     }
 }

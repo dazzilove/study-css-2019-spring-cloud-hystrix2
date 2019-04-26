@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 @RestController
 public class CustomerController {
@@ -25,7 +26,10 @@ public class CustomerController {
     }
 
     @RequestMapping(value = "/customer/{customerNo}", method = RequestMethod.GET)
-    public String getProductByNo(@PathVariable("customerNo") String customerNo) {
+    public String getProductByNo(@PathVariable("customerNo") String customerNo) throws InterruptedException {
+        Random random = new Random();
+        int delay = random.nextInt(8) * 1000;
+        Thread.sleep(delay);
         return customers.get(customerNo).toString();
     }
 }
