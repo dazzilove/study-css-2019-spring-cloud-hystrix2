@@ -10,6 +10,8 @@
       <module name="customer_test" target="1.8" />
       <module name="demo_main" target="1.8" />
       <module name="demo_test" target="1.8" />
+      <module name="hystrixdashboard_main" target="1.8" />
+      <module name="hystrixdashboard_test" target="1.8" />
       <module name="order_main" target="1.8" />
       <module name="order_test" target="1.8" />
       <module name="product_main" target="1.8" />

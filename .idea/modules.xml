@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo.iml" filepath="$PROJECT_DIR$/.idea/modules/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo_main.iml" group="demo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/demo_test.iml" group="demo" />
+      <module fileurl="file://$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" filepath="$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" group="hystrixdashboard" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hystrixdashboard_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hystrixdashboard_main.iml" group="hystrixdashboard" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hystrixdashboard_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hystrixdashboard_test.iml" group="hystrixdashboard" />
       <module fileurl="file://$PROJECT_DIR$/order/order.iml" filepath="$PROJECT_DIR$/order/order.iml" group="order" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/order_main.iml" filepath="$PROJECT_DIR$/.idea/modules/order_main.iml" group="order" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/order_test.iml" filepath="$PROJECT_DIR$/.idea/modules/order_test.iml" group="order" />
