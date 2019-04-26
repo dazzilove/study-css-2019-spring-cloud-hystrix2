@@ -1,16 +1,20 @@
 package com.example.order.controller;
 
+import com.example.order.service.CustomerService;
+import com.example.order.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class OrderController {
     @Autowired
-    RestTemplate restTemplate;
+    ProductService productService;
+
+    @Autowired
+    CustomerService customerService;
 
     @RequestMapping(value = "/order/print/{message}", method = RequestMethod.GET)
     public String print(@PathVariable("message") String message) {
@@ -19,8 +23,8 @@ public class OrderController {
 
     @RequestMapping(value = "/order/{customerNo}/{productNo}", method = RequestMethod.GET)
     public String createOrder(@PathVariable("customerNo") String customerNo, @PathVariable("productNo") String productNo) {
-        String productInfo = (String) restTemplate.getForObject("http://localhost:2002/product/" + productNo, String.class);
-        String customerInfo = (String) restTemplate.getForObject("http://localhost:2003/customer/" + customerNo, String.class);
+        String productInfo = productService.getProductByNo(productNo);
+        String customerInfo = customerService.getCustomerByNo(customerNo);
         return "Create Order <br>&nbsp;&nbsp;" + customerInfo + "<br>&nbsp;&nbsp;" + productInfo;
     }
 }
