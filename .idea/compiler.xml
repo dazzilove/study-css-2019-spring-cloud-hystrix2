@@ -6,10 +6,14 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="coupon_main" target="1.8" />
+      <module name="coupon_test" target="1.8" />
       <module name="customer_main" target="1.8" />
       <module name="customer_test" target="1.8" />
       <module name="demo_main" target="1.8" />
       <module name="demo_test" target="1.8" />
+      <module name="eureka_main" target="1.8" />
+      <module name="eureka_test" target="1.8" />
       <module name="hystrixdashboard_main" target="1.8" />
       <module name="hystrixdashboard_test" target="1.8" />
       <module name="order_main" target="1.8" />
