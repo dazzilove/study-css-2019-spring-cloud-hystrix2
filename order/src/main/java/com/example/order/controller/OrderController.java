@@ -25,6 +25,6 @@ public class OrderController {
     public String createOrder(@PathVariable("customerNo") String customerNo, @PathVariable("productNo") String productNo) {
         String productInfo = productService.getProductByNo(productNo);
         String customerInfo = customerService.getCustomerByNo(customerNo);
-        return "Create Order <br>&nbsp;&nbsp;" + customerInfo + "<br>&nbsp;&nbsp;" + productInfo;
+        return "Create Order<div style='padding-left:10px'>" + customerInfo + "</div><div style='padding-left:10px'>" + productInfo + "</div>";
     }
 }

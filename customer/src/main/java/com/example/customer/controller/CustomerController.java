@@ -1,6 +1,8 @@
 package com.example.customer.controller;
 
 import com.example.customer.bean.Customer;
+import com.example.customer.service.CouponService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -20,6 +22,9 @@ public class CustomerController {
         }
     };
 
+    @Autowired
+    CouponService couponService;
+
     @RequestMapping(value = "/customer/print/{message}", method = RequestMethod.GET)
     public String print(@PathVariable("message") String message) {
         return "customer print > " + message;
@@ -30,6 +35,10 @@ public class CustomerController {
         Random random = new Random();
         int delay = random.nextInt(8) * 1000;
         Thread.sleep(delay);
-        return customers.get(customerNo).toString();
+
+        String customerInfo = customers.get(customerNo).toString();
+        String couponList = couponService.getCustomerCouponList(customerNo);
+
+        return customerInfo + "<div style='padding-left:10px;'>" + couponList + "</div>";
     }
 }

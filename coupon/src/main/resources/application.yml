@@ -1,9 +1,9 @@
 spring:
   application:
-    name: order
+    name: coupon
 
 server:
-  port: 2003
+  port: 2004
 
 management:
   endpoints:

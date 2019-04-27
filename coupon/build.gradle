@@ -15,7 +15,5 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    compile group: 'org.springframework.cloud', name:'spring-cloud-starter-netflix-hystrix', version:'2.1.1.RELEASE'
-    compile 'org.springframework.boot:spring-boot-starter-actuator'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

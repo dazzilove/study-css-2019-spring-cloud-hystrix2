@@ -1,4 +1,4 @@
 rootProject.name = 'demo'
 
-include 'order', 'customer', 'product', 'hystrixdashboard'
+include 'order', 'customer', 'product', 'hystrixdashboard', 'coupon'
 
