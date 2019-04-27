@@ -18,5 +18,8 @@ dependencies {
     compile group: 'org.springframework.cloud', name:'spring-cloud-starter-netflix-hystrix', version:'2.1.1.RELEASE'
     compile 'org.springframework.boot:spring-boot-starter-actuator'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-eureka-client', version: '2.1.1.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-feign', version: '1.4.6.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-autoconfigure-processor', version: '2.1.4.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '2.1.1.RELEASE'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

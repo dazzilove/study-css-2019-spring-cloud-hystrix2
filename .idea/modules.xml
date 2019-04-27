@@ -2,25 +2,25 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/coupon/coupon.iml" filepath="$PROJECT_DIR$/coupon/coupon.iml" group="coupon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/coupon.iml" filepath="$PROJECT_DIR$/.idea/modules/coupon.iml" group="coupon" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/coupon_main.iml" filepath="$PROJECT_DIR$/.idea/modules/coupon_main.iml" group="coupon" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/coupon_test.iml" filepath="$PROJECT_DIR$/.idea/modules/coupon_test.iml" group="coupon" />
-      <module fileurl="file://$PROJECT_DIR$/customer/customer.iml" filepath="$PROJECT_DIR$/customer/customer.iml" group="customer" />
+      <module fileurl="file://$PROJECT_DIR$/customer/customer.iml" filepath="$PROJECT_DIR$/customer/customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/customer/customer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/customer/customer_main.iml" group="customer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/customer/customer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/customer/customer_test.iml" group="customer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo.iml" filepath="$PROJECT_DIR$/.idea/modules/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo_main.iml" group="demo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/demo_test.iml" group="demo" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka/eureka.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka/eureka.iml" group="eureka" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka/eureka_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka/eureka_main.iml" group="eureka" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka/eureka_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka/eureka_test.iml" group="eureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka.iml" group="eureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka_main.iml" group="eureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka_test.iml" group="eureka" />
       <module fileurl="file://$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" filepath="$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" group="hystrixdashboard" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hystrixdashboard_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hystrixdashboard_main.iml" group="hystrixdashboard" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hystrixdashboard_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hystrixdashboard_test.iml" group="hystrixdashboard" />
-      <module fileurl="file://$PROJECT_DIR$/order/order.iml" filepath="$PROJECT_DIR$/order/order.iml" group="order" />
+      <module fileurl="file://$PROJECT_DIR$/order/order.iml" filepath="$PROJECT_DIR$/order/order.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/order_main.iml" filepath="$PROJECT_DIR$/.idea/modules/order_main.iml" group="order" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/order_test.iml" filepath="$PROJECT_DIR$/.idea/modules/order_test.iml" group="order" />
-      <module fileurl="file://$PROJECT_DIR$/product/product.iml" filepath="$PROJECT_DIR$/product/product.iml" group="product" />
+      <module fileurl="file://$PROJECT_DIR$/product/product.iml" filepath="$PROJECT_DIR$/product/product.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/product/product_main.iml" filepath="$PROJECT_DIR$/.idea/modules/product/product_main.iml" group="product" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/product/product_test.iml" filepath="$PROJECT_DIR$/.idea/modules/product/product_test.iml" group="product" />
     </modules>
