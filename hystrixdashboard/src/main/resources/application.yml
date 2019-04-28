@@ -15,3 +15,9 @@ eureka:
 turbine:
   appConfig: order, customer
   clusterNameExpression: new String('default')
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
